@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Artist.create(name: "Steve Harwell", genre: "rock", age: 52, net_worth: 5000000, num_of_albums: 11)
