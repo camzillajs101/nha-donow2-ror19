@@ -1,3 +1,10 @@
 helo bitch
 send bob and vagana
-send pic snow bitsh
+send pic snow bitsh<br><br>
+<% @artists.each do |i| %>
+Name: <%= i.name %><br>
+Age: <%= i.age %><br>
+Genre: <%= i.genre %><br>
+Net worth: <%= i.net_worth %><br>
+Number of albums: <%= i.num_of_albums %>
+<% end %>

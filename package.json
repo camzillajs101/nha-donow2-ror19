@@ -2,6 +2,10 @@
   "name": "do_now",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "^4.0.2",
     "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.2.1"
   }
 }
