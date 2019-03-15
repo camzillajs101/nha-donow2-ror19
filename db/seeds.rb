@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Artist.create(name: "Steve Harwell", genre: "rock", age: 52, net_worth: 5000000, num_of_albums: 11)
+Artist.create(name: "Gregory Camp", genre: "rock", age: 51, net_worth: 2, num_of_albums: 11)
+Artist.create(name: "Paul de Lisle", genre: "rock", age: 55, net_worth: 5, num_of_albums: 11)
