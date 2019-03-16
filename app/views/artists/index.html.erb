@@ -1,0 +1,19 @@
+<h1>Artists</h1>
+<table id="artists" style="border-collapse:collapse">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Genre</th>
+    <th>Net worth</th>
+    <th>No. of albums</th>
+  </tr>
+  <% @artists.each do |i| %>
+  <tr>
+    <td><%= i.name %></td>
+    <td><%= i.age %></td>
+    <td><%= i.genre %></td>
+    <td><%= i.net_worth %></td>
+    <td><%= i.num_of_albums %></td>
+  </tr>
+  <% end %>
+</table>
